@@ -1,0 +1,27 @@
+
+
+NET "clk" LOC = C9;
+NET "lampu_jalanraya[0]" LOC = D11;
+NET "lampu_jalanraya[1]" LOC = E9;
+NET "lampu_jalanraya[2]" LOC = F9;
+NET "lampu_peternakan[0]" LOC = F12;
+NET "lampu_peternakan[1]" LOC = E12;
+NET "lampu_peternakan[2]" LOC = E11;
+NET "pushbutton" LOC = H13;
+NET "rst_n" LOC = D18;
+
+
+NET "pushbutton" PULLDOWN;
+NET "rst_n" PULLDOWN;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "lampu_jalanraya[0]" IOSTANDARD = LVCMOS33;
+NET "lampu_jalanraya[1]" IOSTANDARD = LVCMOS33;
+NET "lampu_jalanraya[2]" IOSTANDARD = LVCMOS33;
+NET "lampu_peternakan[0]" IOSTANDARD = LVCMOS33;
+NET "lampu_peternakan[1]" IOSTANDARD = LVCMOS33;
+NET "lampu_peternakan[2]" IOSTANDARD = LVCMOS33;
+NET "pushbutton" IOSTANDARD = LVCMOS33;
+NET "rst_n" IOSTANDARD = LVCMOS33;
